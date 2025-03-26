@@ -18,7 +18,7 @@
     "homepage": "https://github.com/yusinv/esp-dsp.git",
     "dependencies": [],
     "frameworks": "*",
-    "platforms": "espressif32"
+    "platforms": "espressif32",
     "build": {
       "includeDir": "modules",
       "flags": 
