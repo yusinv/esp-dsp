@@ -23,7 +23,7 @@
       "includeDir": "modules",
       "flags": 
       [
-        "-I include",
+        "-I include"
       ]
   }
   }
