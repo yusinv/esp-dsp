@@ -1,0 +1,29 @@
+{
+    "name": "esp-dsp",
+    "version": "1.5.2",
+    "description": "DSP library for all Espressif chips",
+    "keywords": "audio",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/yusinv/esp-dsp.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Espressif",
+        "maintainer": true
+      }
+    ],
+    "homepage": "https://github.com/yusinv/esp-dsp.git",
+    "dependencies": [],
+    "frameworks": "*",
+    "platforms": "espressif32"
+    "build": {
+      "includeDir": "modules",
+      "flags": 
+      [
+        "-I include",
+      ]
+  }
+  }
